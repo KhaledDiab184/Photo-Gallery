@@ -17,7 +17,7 @@ export default function SearchAppBar(props) {
   }
   return (
     <Box sx={{ flexGrow: 1,  }}>
-      <AppBar position="static" sx={{borderRadius:"5px", bgcolor:"rgb(190 147 147)", color:"#fff"}}>
+      <AppBar position="static" sx={{borderRadius:"5px", bgcolor:"black", color:"#fff"}}>
         <Toolbar>
           <IconButton
             size="large"
