@@ -7,6 +7,7 @@ export const Search = styled('div')(({ theme }) => ({
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
     backgroundColor: "#fff",
+    color:"black",
     marginLeft: 0,
     width: '100%',
     [theme.breakpoints.up('sm')]: {
