@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 
 export default function CustomizedCard(props) {
   return (
-    <Card sx={{ height:"220", width:"300px", margin:"16px", borderStyle:"solid", borderColor:" rgb(227 211 220)"  }}>
+    <Card sx={{ height:"220", width:"300px", margin:"16px", borderStyle:"solid", borderColor:" #e4e4e4"  }}>
       <CardMedia
         component="img"
         height="220"
@@ -21,7 +21,7 @@ export default function CustomizedCard(props) {
         </Typography>
       </CardContent>
       <CardActions>
-      <Button size="small" onClick={()=>window.open(props.urls.full)} sx={{bgcolor:"rgb(190 147 147)", color:"#2e1919", fontWeight:"500px"}}>Full Resolution</Button>
+      <Button size="small" onClick={()=>window.open(props.urls.full)} sx={{bgcolor:"black", color:"#939393", fontWeight:"500px"}}>Full Resolution</Button>
       </CardActions>
     </Card>
   );
